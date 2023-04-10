@@ -153,3 +153,33 @@ nav li a:hover::after{
  }
  /* -------- PSEUDO CLASS --------- */
  /* -------- MEDIA QUERY --------- */
+ @media screen and (min-width:390px) and (max-width:844px) {
+ .img{
+  margin-right:8%;
+  max-width:300px;
+  max-height: 250px;
+  margin-left: 13%;
+  align-items: center;
+ }  
+  .csi{
+    margin-left: 24%;
+    align-items: center;
+  }
+  .navbar-nav{
+     display:inline-flex;
+     text-decoration: none;
+     margin-right: 0%;
+     margin-left: 0%;
+     padding: 0px;
+   }
+   .nav ul li a {
+    padding: 0%;
+    float: left;
+   }
+  .desc{
+     
+     margin-left: 7%;
+     text-align: center;
+  }
+
+ }  
